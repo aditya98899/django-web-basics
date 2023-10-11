@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form in html</title>
+</head>
+<body>
+    <form \ method="post" enctype="multipart/form-data">
+        <input type="text" name="username" id="username" placeholder="username" required maxlength="20" size="25" pattern="[A-Za-z0-9]+">
+        <br>
+        <input type="email" name="email" id="email" placeholder="email">
+        <br>
+        <input type="tel" name="phone" placeholder="phone" id="phone">
+
+        <br>
+        <input type="date" name="dob" id="dob">
+        <br>
+        <input type="datetime-local" name="admissionade" id="admitdate">
+        <br>
+        <input type="file" name="avtar" id="avtar">
+        <br>
+        <input type="checkbox" name="agree" id="agree">
+        Do you agree
+        <br>
+        <p> you fav fruit</p>
+        <input type="radio" name="ff" id="ff" value="apple"> apple 
+        <br>
+        <input type="radio" name="ff" id="ff2" value=" mango"> mango 
+        <br>
+        <input type="radio" name="ff" id="ff3" value="pineaple"> pineaple 
+        <br>
+        <p> kitna padhe ho</p>
+        <select name="edu" id="edu">
+        <option value="1">graduate</option>
+        <option value="2">post graduate</option>
+        <option value="3">doctrate</option>
+        <option value="4">interdiate</option>
+        <option value="5>"> highschool</option>
+        <option value="6">5th fail </option>
+        </select>
+        <br>
+        <p> rate your skill</p>
+        <input type="range" name="rating" id="rating">
+        <input type="hidden" name="secret" value="kuch raaz hi isme">
+        <br>
+        <input type="submit" value="send">
+
+    </form>
+    
+</body>
+</html>
