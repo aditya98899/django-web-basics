@@ -40,15 +40,41 @@
     }
     main{
         min-height: 80vh;
-        background-color: aquamarine;
+        
+        width: min(70ch,90%);
+        margin-inline: auto;
     }
     .hero-heading{
         font-size: 3rem;
         line-height: 1.1;
         margin-bottom: 5rem;
-        margin-left: 1rem;
         padding: top 5rem;
     }
+    .text{
+        font-size: 1.25rem;
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
+    .item-list > *{
+        list-style-image: url(static/images/arrow.png);
+        margin-left: 1.15rem;
+        padding: .25rem 0;
+        font-size: 1,5rem;
+        font-weight: bold;
+        
+    }
+    .item-list{
+        margin-bottom: 1rem;
+    }
+     footer{
+        background-color: beige;
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
+        color: rgb(255,0, 30);
+        font-weight: bold;
+     }
+    
     
     /* ul{
        display: flex;
@@ -70,16 +96,19 @@
         <section>
             <section>
                 <h2 class="hero-heading"> welcome to layout in css</h2>
-                <p> 
-                    today we are going to seee example of layout in Css
-                </p>
-                <ul> <li> Grides</li>
+                
+                
+                <P class="text ">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quam quidem facilis ad molestias nihil. Odio saepe omnis repellat natus at! Recusandae pariatur hic adipisci saepe, voluptatibus et, consequuntur eius officiis neque ratione ipsa molestias. Voluptates sunt optio iure sequi rerum maxime ducimus molestias pariatur laboriosam dolores autem id ullam consequuntur aliquid excepturi a quas, repudiandae, cumque, ea deleniti? Reiciendis alias qui commodi saepe natus obcaecati esse asperiores quas tempora minima adipisci quisquam corrupti temporibus, dolorem consequatur dolore quasi necessitatibus atque nisi quibusdam repellendus. Provident beatae esse quos cupiditate commodi velit quae omnis atque alias! Voluptas, enim reprehenderit. Officia, quibusdam.
+    
+                </P>
+                <ul class="item-list"> <li> Grides</li>
                     <li> Flexbox</li>
                     <li> mixing both together</li>
                 </ul>
-                <P>
-                     this is very useful for creating simple lyout
-                </P>
+                <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quisquam omnis delectus vitae minus officia harum iste modi sit adipisci in asperiores, nesciunt dignissimos, id non ratione perspiciatis ipsum. Aliquid illo, esse eveniet officiis veniam ab distinctio necessitatibus, vitae quos natus dignissimos qui voluptate quo at? Ducimus recusandae accusamus totam!
+                </p>
                 <article>
             </section>
         </section>
